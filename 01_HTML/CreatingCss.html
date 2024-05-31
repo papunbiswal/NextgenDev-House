@@ -28,6 +28,13 @@
                 border-radius: 10px;
                 margin: 4px;
             }
+            form input[type="text"],
+            form input[type="number"],
+            form input[type="email"]{
+                width: 20%;
+                margin: 5px 0;
+            }
+            
     </style>
 </head>
 <body>
@@ -41,7 +48,20 @@
     <div>
         <p>This is a paragraph with 20m pixels of padding. This padding creates space inside the0paragraph, making it less cramped. 
         </p>
-    </div>
+   
     <img src="https://via.placeholder.com/200" alt="simple image">
+</div>
+
+<!--Creating a Smaplem Form-->
+    <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name"><br/><br/>
+            <label for="">Contact Number: </label>
+            <input type="text"><br/><br/>
+            <label for="email">Email: </label>
+            <input type="email"><br/><br/>
+            <input type="submit">
+
+    </form>
 </body>
 </html>
